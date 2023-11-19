@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="Total Finances"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <!-- Total de Entradas -->
+    <TextView
+        android:id="@+id/totalEntradasText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Total de entradas"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@drawable/border" />
+    <!-- Linha preta -->
+    <View
+        android:id="@+id/blackLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/totalEntradasText"
+        android:layout_marginTop="86dp"
+        android:background="@android:color/black" />
+
+    <!-- Total de Gastos -->
+    <TextView
+        android:id="@+id/totalGastosText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blackLine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="Total de Gastos"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@drawable/border" />
+
+    <!-- Linha preta -->
+    <View
+        android:id="@+id/blackLineSpent"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/totalGastosText"
+        android:layout_marginTop="86dp"
+        android:background="@android:color/black" />
+
+    <!-- Dinheiro Disponível -->
+    <TextView
+        android:id="@+id/dinheiroDisponivelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blackLineSpent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="Dinheiro Disponível"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:background="@drawable/border" />
+
+
+
+
+
+</RelativeLayout>
